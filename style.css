@@ -80,3 +80,23 @@ section {
 .sponsor-card img {
     max-width: 80%;
 }
+
+.hc-card {
+    background-color: ghostwhite;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 20px;
+    width: 20vw;
+    height: 35vh;
+    align-content: center;
+}
+
+.hc-card img {
+    max-width: 80%;
+}
+
+a {
+    color: inherit;
+}
