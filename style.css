@@ -17,7 +17,7 @@ html,
 body {
   margin: 0;
   font-family: Source Serif Pro;
-  font-size: 1.3vw;
+  font-size: clamp(0.875rem, 1.3vw, 1.1rem);
 }
 
 header {
@@ -118,6 +118,13 @@ a {
 
   section div {
     flex-wrap: wrap;
+  }
+
+  .schedule-card,
+  .workshop-card,
+  .sponsor-card,
+  .hc-card {
+    box-sizing: border-box;
   }
 
   .schedule-card {
