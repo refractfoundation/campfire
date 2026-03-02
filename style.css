@@ -101,3 +101,40 @@ section {
 a {
   color: inherit;
 }
+
+@media (max-width: 768px) {
+  html,
+  body {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: clamp(1.5rem, 10vw, 2.5rem);
+  }
+
+  h2 {
+    font-size: clamp(1.25rem, 6vw, 2rem);
+  }
+
+  section div {
+    flex-wrap: wrap;
+  }
+
+  .schedule-card {
+    width: calc(50% - 20px);
+  }
+
+  .workshop-card {
+    width: calc(80vw - 30px);
+    height: auto;
+  }
+
+  .sponsor-card {
+    width: calc(40vw - 10px);
+  }
+
+  .hc-card {
+    width: calc(80vw - 30px);
+    height: auto;
+  }
+}
